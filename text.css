@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    min-height: 700px;
+    background:lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    border: 0;
+    outline: 0;
+}
+.container h1{
+    font-size: 45px;
+     font-weight: 500;
+     margin-top: 10px;
+     margin-bottom: 50px;
+}
+.container h1 span {
+    color: white;
+}
+textarea{
+    width: 600px;
+    height: 200px;
+    background: #403d84;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background:black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+}
+select{
+    flex: 1;
+    background: #403d84;
+    height: 50px;
+    padding: 0px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    color: white;
+}
